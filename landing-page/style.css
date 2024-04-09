@@ -5,6 +5,7 @@ body {
     margin: 0px;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-weight: 18px;
 }
 
 
@@ -46,6 +47,7 @@ a {
 .hero-main {
     font-weight: bolder;
     color: #F9FAF8;
+    flex-shrink: 1;
 }
 
 .quote-section {
@@ -55,4 +57,12 @@ a {
 
 .footer {
     background-color: #1F2937;
+    height: 72px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.footer > p {
+    text-align: center;
+    margin: auto;
 }

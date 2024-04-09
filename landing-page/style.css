@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+
+}
+
+.footer {
+    background-color: #1F2937;
+}

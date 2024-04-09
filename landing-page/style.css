@@ -38,7 +38,7 @@ a {
 
 .hero {
     background-color: #1F2937;
-    height: 450px;
+    height: 50vh;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
@@ -52,7 +52,29 @@ a {
 
 .quote-section {
     background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-container {
+    width: 43%;
+    height: 70%;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: end;
+    margin-right: 24px;
 }
 
 .footer {

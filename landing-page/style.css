@@ -11,7 +11,6 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
     color: #F9FAF8;
     font-size: 24px;
     height: 72px;
@@ -19,6 +18,7 @@ body {
 
 .logo {
     font-weight: bolder;
+    flex-grow: 2;
 }
 
 ul {
@@ -38,6 +38,14 @@ a {
 .hero {
     background-color: #1F2937;
     height: 450px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+.hero-main {
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .quote-section {

@@ -18,7 +18,7 @@ body {
 }
 
 .header-container {
-    width: 75%;
+    width: 72%;
     display: flex;
 }
 
@@ -48,11 +48,12 @@ a {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .hero-container {
     display: flex;
-    width: 75%;
+    width: 72%;
     align-items: center;
     justify-content: space-between;
 }
@@ -108,7 +109,7 @@ button {
 .info-container {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 65%;
     justify-content: center;
     gap: 48px;
     margin-top: 48px;
@@ -125,7 +126,7 @@ button {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 32px;
 }
 
